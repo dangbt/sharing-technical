@@ -1,0 +1,12 @@
+@tailwind base;
+
+h1 {
+  @apply text-3xl;
+}
+ul {
+  @apply list-disc ml-12 mt-4 mb-4;
+}
+
+@tailwind components;
+
+@tailwind utilities;
