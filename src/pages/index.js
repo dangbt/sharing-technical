@@ -12,7 +12,7 @@ export default ({ data }) => {
         <div>
           <h1
           >
-            Blog by Dâng bá đạo
+            Blog by Dâng đẹp trai =))
         </h1>
           <h4><span className="text-red-500">{data.allMarkdownRemark.totalCount}</span> Posts</h4>
         </div>
