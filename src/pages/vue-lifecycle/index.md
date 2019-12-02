@@ -7,16 +7,15 @@ date: "2019-11-11"
 
 # Creation (Initialization)
 
-  - **Creation** hooks chạy đầu tiên khi trước khi khởi tạo component và thêm vào **DOM**
-  - **creation** hooks có thể chạy **SRR**(server-side rendering) và **CSR** (client-side rendering)
-  - Bạn không thể truy cập vào **this.$el** vì component chưa khỏi tạo và add vào **DOM**
+- **Creation** hooks chạy đầu tiên khi trước khi khởi tạo component và thêm vào **DOM**
+- **creation** hooks có thể chạy **SRR**(server-side rendering) và **CSR** (client-side rendering)
+- Bạn không thể truy cập vào **this.\$el** vì component chưa khỏi tạo và add vào **DOM**
 
 # beforeCreate
-  - khởi tạo component nhưng chưa được access vào **data** và **events**
+
+- khởi tạo component nhưng chưa được access vào **data** và **events**
 
 ![](beforeCreate.png)
-
-
 
 # created
 
@@ -24,7 +23,7 @@ date: "2019-11-11"
 
 ![](created.png)
 
-# Mounting (DOM  Insertion)
+# Mounting (DOM Insertion)
 
 - Mounting hooks thường được sử dụng nhiều nhất. Mounting cho phép bạn access vào component trước và sau component render lần đầu tiên.
 - `Nên dùng mounting hook` nếu như bạn cần access hoặc sửa DOM của component trước hoặc sau khi render
@@ -36,14 +35,12 @@ date: "2019-11-11"
 
 - Remember, it doesn’t get called when doing server-side rendering.
 
-  
-
 ![](beforeMount.png)
 
 # mounted
 
-- `mounted` hook, bạn sẽ có full quyền để access vào component, templates và rennder DOM (this.$el)
-- `mounted` hook được dùng thường xuyên và phổ biến nhất,  thường được dùng để fetch data cho component của bạn (có thể dùng `created`)
+- `mounted` hook, bạn sẽ có full quyền để access vào component, templates và rennder DOM (this.\$el)
+- `mounted` hook được dùng thường xuyên và phổ biến nhất, thường được dùng để fetch data cho component của bạn (có thể dùng `created`)
 - `mount` bạn có thể sửa DOM
 
 ![](mounted.png)
@@ -55,8 +52,6 @@ date: "2019-11-11"
 - không nên dùng nếu như bạn không biết về property của componrnt khi nào thay đổi (có thể dùng `computed` hoặc `watchers` để thay thế).
 
 # beforeUpdate
-
-
 
 ![](beforeUpdate.png)
 

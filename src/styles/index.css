@@ -1,12 +1,48 @@
-@tailwind base;
 
-h1 {
-  @apply text-3xl;
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../static/fonts/Merriweather-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
-ul {
-  @apply list-disc ml-12 mt-4 mb-4;
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../static/fonts/Merriweather-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
 }
 
-@tailwind components;
+html, body {
+  height: 100%;
+  font-family: 'Merriweather';
+}
+body {
+  background-color: #E0FCFF;
+  color: #102A43;
+}
+.container {
+   max-width: 50rem;
+   margin: 0 auto;
+}
 
-@tailwind utilities;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #243B53;
+}
+
+.link:hover {
+  color: #647ACB;
+}
+
+.content {
+  background-color: white;
+  padding: 20px;
+}

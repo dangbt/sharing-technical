@@ -19,7 +19,7 @@ Trước tiên hãy nhìn tấm ảnh dưới đây:
 
 ![giới thiệu về seo](https://gtvseo.com/wp-content/uploads/2017/05/seo_la_gi.jpg)
 
-​													Từ dưới phần Quảng cáo Google sẽ là SEO*
+​ Từ dưới phần Quảng cáo Google sẽ là SEO\*
 
 Khi bạn search từ khóa “máy chạy bộ” trên công cụ tìm kiếm, bạn có thể nhìn thấy hàng loạt kết quả tìm kiếm.
 
@@ -32,7 +32,7 @@ Bạn nghĩ rằng:
 - Website thuộc sở hữu của những thương hiệu nổi tiếng, có lượng **[traffic](https://gtvseo.com/traffic-la-gi/)** (lượng truy cập) cực kì lớn thì mới đứng top đầu công cụ tìm kiếm được???
 - Doanh nghiệp nhỏ lẻ chưa có tên tuổi và ít được mọi người biết đến sẽ không bao giờ đứng ở vị trí top đầu trên kết quả tìm kiếm???
 
-Tuy nhiên, sự thật  không phải vậy!
+Tuy nhiên, sự thật không phải vậy!
 
 Tất cả các vị trí top đều có phương pháp tối ưu để được lên thứ hạng cao trên công cụ tìm kiếm. Và thuật ngữ chuyên môn gọi đó là SEO.
 
@@ -50,8 +50,8 @@ Nhìn chung, SEO không chỉ giúp bạn:
 
 Để cuối cùng, mục tiêu SEO chính là:
 
-> *Gia tăng số lượng & chất lượng lưu lượng truy cập (hay còn gọi là traffic) của người dùng tiềm năng vào website.*
+> _Gia tăng số lượng & chất lượng lưu lượng truy cập (hay còn gọi là traffic) của người dùng tiềm năng vào website._
 
 ![seo là gì](https://gtvseo.com/wp-content/uploads/2017/05/seo-la-gi.jpg)
 
-​					Hiểu rõ về **SEO là gì** – Tối ưu hóa công cụ tìm kiếm **nâng cao thứ hạng** cho website*
+​ Hiểu rõ về **SEO là gì** – Tối ưu hóa công cụ tìm kiếm **nâng cao thứ hạng** cho website\*
