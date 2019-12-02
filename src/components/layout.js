@@ -21,7 +21,7 @@ export default ({ children }) => {
   return (
     <div className="container">
       <header className="header">
-        <Link to="/">
+        <Link className="link-hover-none" to="/">
           <h1 className="font-sans text-3xl font-bold text-blue-500 no-underline uppercase">
             {data.site.siteMetadata.title}
           </h1>

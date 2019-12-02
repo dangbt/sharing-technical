@@ -7,13 +7,12 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `SHARING`,
-    description: `sharing ahihi`,
+    title: 'SHARE-EVERYTHING',
+    description: `share-everything`,
     author: `Dâng Bá Đạo`
   },
   plugins: [
     `gatsby-transformer-remark`,
-    `gatsby-plugin-postcss`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,

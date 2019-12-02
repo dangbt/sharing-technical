@@ -38,8 +38,11 @@ a {
   color: #243B53;
 }
 
-.link:hover {
+a:hover {
   color: #647ACB;
+}
+.link-hover-none:hover {
+  color: #243B53;
 }
 
 .content {
