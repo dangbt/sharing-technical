@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'SHARE-EVERYTHING',
+    title: 'Thanos',
     description: `share-everything`,
     author: `Dâng Bá Đạo`
   },
@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

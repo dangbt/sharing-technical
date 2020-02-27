@@ -1,6 +1,7 @@
 ---
 title: "Những trang bookmark hay nên đọc"
 date: "2019-11-14"
+image: "tailwindcss.png"
 ---
 
 ## Kim chỉ nam cho các dev. [link](https://khalilstemmler.com/articles/software-design-architecture/full-stack-software-design/?fbclid=IwAR1y5k4qpYyweTfBwnWP1NkDDWg-ldftYFlLpkkPd7s6ckbHa0MUPNRXdRQ)

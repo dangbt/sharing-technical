@@ -1,6 +1,7 @@
 ---
 title: "Hiểu biết cơ bản về Tailwind css"
 date: "2019-11-06"
+image: "tailwindcss.png"
 ---
 
 ![](tailwindcss.png)

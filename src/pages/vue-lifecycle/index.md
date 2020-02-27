@@ -1,6 +1,7 @@
 ---
 title: "Understanding Vue.js Lifecycle Hooks"
 date: "2019-11-11"
+image: "tailwindcss.png"
 ---
 
 ![](component-lifecycle.png)

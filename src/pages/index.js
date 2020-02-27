@@ -4,29 +4,24 @@ import "../styles/index.css";
 
 import Layout from "../components/layout";
 
-export default ({ data }) => {
-  console.log(data);
+export default (props) => {
+  const data = props.data
   return (
-    <Layout>
-      <div className="">
-        <div>
-          {/* <h4>
-            <span className="text-red-500">
-              {data.allMarkdownRemark.totalCount}
-            </span>{" "}
-            Posts
-          </h4> */}
+    <Layout {...props}>
+      <div className="flex flex-row">
+        <div className="w-1/5 mr-4">
+          ahihi
         </div>
-        <div className="">
+        <div className="w-4/5">
           {data.allMarkdownRemark.edges.map(({ node }, index) => (
             <div key={node.id} className="mt-4">
               <Link className="link" to={node.fields.slug}>
-                <h2 className="font-sans text-3xl font-bold text-gray-800 no-underline hover:text-blue-500">
-                  {index + 1}. {node.frontmatter.title}{" "}
-                  <span>— {node.frontmatter.date}</span>
+                <h2 className="font-sans text-xl font-bold text-gray-800 no-underline">
+                  {index + 1}. {node.frontmatter.title}{" "} - 
+                  <span className="" > {node.frontmatter.date}</span>
                 </h2>
               </Link>
-              <p>{node.excerpt}</p>
+              <p className="ml-5">{node.excerpt || '...'}</p>
             </div>
           ))}
         </div>
@@ -36,7 +31,7 @@ export default ({ data }) => {
 };
 
 export const query = graphql`
-  query {
+  query  {
     allMarkdownRemark {
       totalCount
       edges {

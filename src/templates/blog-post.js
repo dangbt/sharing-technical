@@ -3,10 +3,11 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-export default ({ data }) => {
+export default (props) => {
+  const data = props.data
   const post = data.markdownRemark;
   return (
-    <Layout>
+    <Layout {...props}>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <div className="content">
         <h1 className="text-5xl font-bold uppercase">
