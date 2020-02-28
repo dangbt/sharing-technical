@@ -1,5 +1,7 @@
 import React from "react";
 import { useStaticQuery, Link, graphql } from "gatsby";
+import "../styles/index.css";
+
 const ListLink = props => (
   <li className={`inline-block mr-4 ${props.uri === props.to ? 'border-b-2 border-solid border-gray-600 ': null}`}>
     <Link to={props.to}>{props.children}</Link>
@@ -20,10 +22,10 @@ export default (props) => {
   );
   return (
     <>
-      <div className="border-b-2 fixed inset-x-0 bg-white z-10">
-        <header className="flex items-center justify-between container py-3 mx-auto">
+      <div className="fixed inset-x-0 z-10 bg-white border-b-2">
+        <header className="container flex items-center justify-between py-3 mx-auto">
           <Link className="link-hover-none" to="/">
-            <h1 className="font-sans text-2xl font-bold text-black-500 no-underline uppercase">
+            <h1 className="font-sans text-2xl font-bold no-underline uppercase text-black-500">
               {data.site.siteMetadata.title}
             </h1>
           </Link>
@@ -33,7 +35,7 @@ export default (props) => {
           </ul>
         </header>
       </div>
-      <div className="container mx-auto pt-16">
+      <div className="container pt-16 mx-auto">
         {props.children}
       </div>
       <footer className="h-64"></footer>

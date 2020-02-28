@@ -1,7 +1,6 @@
 ---
 title: "Design pattern"
 date: "2019-12-23"
-image: "tailwindcss.png"
 ---
 
 #### A pattern
