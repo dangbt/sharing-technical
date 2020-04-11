@@ -1,4 +1,4 @@
-# Share-Everything - http://share-everything.surge.sh/
+# Share-Everything - http://thanos.surge.sh/
 
 ### Đây là project nơi mọi người viết và lưu lại những kiến thức của mình để có thể sử dụng cho mình và chia sẻ đến với mọi người. Người viết có thể viết về bất cứ nội dung gì, bất cứ chủ đề gì mà mình cho là hữu ích cho mình, cho người khác.
 
