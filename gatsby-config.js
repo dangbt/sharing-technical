@@ -7,8 +7,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Thanos',
-    description: `share-everything`,
+    title: 'Jack',
+    description: `Jack`,
     author: `Dâng Bá Đạo`
   },
   plugins: [

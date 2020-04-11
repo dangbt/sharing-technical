@@ -9,8 +9,8 @@ export default (props) => {
   return (
     <Layout {...props}>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
-      <div className="content">
-        <h1 className="text-5xl font-bold uppercase">
+      <div className="mt-4 content">
+        <h1 className="text-4xl font-bold">
           {post.frontmatter.title}
         </h1>
         <p>{post.frontmatter.date}</p>
