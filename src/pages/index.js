@@ -2,7 +2,6 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 
 import Layout from "../components/layout";
-import avatar from "../images/account.svg";
 
 export default (props) => {
   const data = props.data

@@ -3,14 +3,13 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import avatar from "../images/account.svg";
 
-export default props => {
-  const data = props.data;
+export default (props) => {
   return (
     <Layout {...props}>
       <div className="profile_container">
         <aside className="flex flex-row items-center justify-around profile-card">
           <header className="flex-1">
-            <a href="#">
+            <a href="/" at>
               <img src={avatar} className="" alt="" />
             </a>
             <h1 className="text-xl">Bùi Tấn Dâng</h1>
@@ -56,7 +55,7 @@ export default props => {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="/">
                   <svg viewBox="0 0 478.613 478.613">
                     <path
                       d="M427.501,200.695c1.776-11.238,2.884-23.56,3.163-37.377c-0.107-59.246-28.468-80.21-33.925-90.038

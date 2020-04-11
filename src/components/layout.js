@@ -4,7 +4,7 @@ import "../styles/index.css";
 
 const ListLink = props => (
   <li className={`inline-block mr-4 ${props.uri === props.to ? 'border-b-2 border-solid border-gray-600 ': null}`}>
-    <Link to={props.to}>{props.children}</Link>
+    <Link to={props.to} className='text-gray-800'>{props.children}</Link>
   </li>
 );
 
@@ -24,7 +24,7 @@ export default (props) => {
     <>
       <div className="fixed inset-x-0 z-10 bg-white border-b-2">
         <header className="container flex items-center justify-between py-3 mx-auto">
-          <Link className="link-hover-none" to="/">
+          <Link className="text-gray-800 link-hover-none" to="/">
             <h1 className="font-sans text-2xl font-bold no-underline uppercase text-black-500">
               {data.site.siteMetadata.title}
             </h1>

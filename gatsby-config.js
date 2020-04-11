@@ -7,8 +7,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Jack',
-    description: `Jack`,
+    title: 'Thanos',
+    description: `Thanos`,
     author: `Dâng Bá Đạo`
   },
   plugins: [

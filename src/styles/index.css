@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: 'Bitter';
-  src: url('../static/fonts/bitter-Regular.woff2') format('woff2');
+  src: url('../static/fonts/bitter-italic.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
 }
@@ -36,6 +36,17 @@ body {
 
 h1 {
   @apply text-4xl font-bold;
+}
+
+hr {
+  @apply my-2;
+}
+.gatsby-resp-image-wrapper {
+  @apply my-2;
+}
+
+a {
+  @apply text-blue-500;
 }
 
 .profile_container {
