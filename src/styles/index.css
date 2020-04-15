@@ -38,6 +38,18 @@ h1 {
   @apply text-4xl font-bold;
 }
 
+h2 {
+  @apply text-3xl font-bold;
+}
+
+h3 {
+  @apply text-2xl font-bold;
+}
+
+h4 {
+  @apply text-xl font-bold;
+}
+
 hr {
   @apply my-2;
 }
@@ -61,6 +73,9 @@ pre {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+code {
+  white-space: pre-wrap;
 }
 
 .profile_container {

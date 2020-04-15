@@ -8,7 +8,7 @@ export default (props) => {
   return (
     <Layout {...props}>
       <div className="w-4/5 mx-auto">
-        {data.allMarkdownRemark.edges.map(({ node }, index) => (
+        {data.allMarkdownRemark.edges.reverse().map(({ node }, index) => (
           <div key={node.id} className="mt-4">
             <Link className="link" to={node.fields.slug}>
               <h2 className="font-sans text-xl font-bold text-gray-800 no-underline hover:text-blue-600">
